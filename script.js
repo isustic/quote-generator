@@ -46,7 +46,8 @@ async function getQuote() {
     //    Stop loading, show quote
         removeLoadingSpinner();
     } catch (error) {
-        getQuote();
+        // getQuote();
+        console.log('Eroare!');
     }
 }
 
